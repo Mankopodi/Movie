@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movie_actors",
+  "info": {
+    "singularName": "movie-actor",
+    "pluralName": "movie-actors",
+    "displayName": "MovieActor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "movie_id": {
+      "type": "integer"
+    },
+    "actor_id": {
+      "type": "integer"
+    }
+  }
+}
